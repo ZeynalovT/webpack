@@ -4,4 +4,12 @@ const elevenShieldRecipe = {
   refineMoonstone: 4,
 };
 
+const elevenTotalRecipe = {
+  ...elevenShieldRecipe,
+  leather: 1,
+  refineMoonStone: 4,
+}
+
 console.log(elevenShieldRecipe)
+
+console.log(elevenTotalRecipe)
