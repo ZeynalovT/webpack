@@ -1,6 +1,8 @@
+import './styles/index.scss'
+
 const elevenShieldRecipe = {
   leatherStripe: 2,
-  ironIgnot: 1,
+  ironIgnot: 6,
   refineMoonstone: 4,
 };
 

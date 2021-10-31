@@ -1,0 +1,18 @@
+@use "variables";
+
+body {
+  background-color: variables.$bg;
+  margin: 0;
+  color: var(--text);
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 15px;
+}
