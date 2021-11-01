@@ -1,17 +1,9 @@
+import React from 'react'
+import ReactDom from "react-dom"
+
+import App from "./App"
 import './styles/index.scss'
 
-const elevenShieldRecipe = {
-  leatherStripe: 2,
-  ironIgnot: 6,
-  refineMoonstone: 4,
-};
+ const appElement = document.getElementById("root")
 
-const elevenTotalRecipe = {
-  ...elevenShieldRecipe,
-  leather: 1,
-  refineMoonStone: 4,
-}
-
-console.log(elevenShieldRecipe)
-
-console.log(elevenTotalRecipe)
+render(<App />, appElement);
